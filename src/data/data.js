@@ -1,0 +1,5 @@
+export const news = [
+  { desc: '  Blue Dragon recently mounted one of the biggest rescue operations in our history. After a long, complicated journey, the young men we freed are now safely home in Vietnam. Calls for help The first call for help came in July 2024. Three young men reached out to us from' },
+  { desc: 'In August 2024, Blue Dragon launched a daring mission to rescue young women trapped in forced labor in a remote northern province of Vietnam. Working closely with local authorities and partner organizations, our team overcame dangerous conditions to ensure their safety.' },
+  { desc: 'In September 2024, Blue Dragon orchestrated the reunification of children who had been separated from their families due to trafficking. These children, as young as 12, had been forced into hazardous labor far from their homes.' }
+]
