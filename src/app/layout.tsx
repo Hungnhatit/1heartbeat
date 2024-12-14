@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from '@/components/shared/Header/Header.jsx';
+import Footer from '@/components/shared/Footer/Footer.jsx';
 import { ThemeContextProvider } from "@/context/ThemeContext.jsx";
 import ThemeProvider from '@/providers/ThemeProvider.jsx'
 
@@ -18,22 +19,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-
         <ThemeContextProvider>
           <ThemeProvider>
             <Header />
             <div className="container">
-              <div className="">
-                {children}
-              </div>
+              {children}
             </div>
+            <Footer/>
           </ThemeProvider>
-
         </ThemeContextProvider>
-
-
-
-
       </body>
     </html>
   );

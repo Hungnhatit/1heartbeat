@@ -1,0 +1,20 @@
+/* Event */
+.imgContainer {
+  width: 100%;
+  height: 650px;
+  position: relative;
+}
+
+.overlay {
+  object-fit: cover;
+  filter: blur(5px) brightness(0.7);
+}
+
+/* Event Card */
+.cardItem {
+  margin-right: 5%;
+}
+
+.cardItem:last-child {
+  margin-right: 0;
+}

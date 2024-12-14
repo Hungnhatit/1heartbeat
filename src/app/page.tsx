@@ -3,7 +3,9 @@ import HomePage from '@/app/(root)/home/page.jsx'
 export default function Home() {
   return (
     <div className="">
-      <HomePage></HomePage>
+      <HomePage>
+        
+      </HomePage>
     </div>
   );
 }
